@@ -55,9 +55,6 @@ a {
     background-color: transparent
 }
 
-a:active,
-a:hover {}
-
 abbr[title] {
     border-bottom: 1px dotted
 }
@@ -4294,8 +4291,6 @@ tbody.collapse.in {
     position: relative
 }
 
-.dropdown-toggle:focus {}
-
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -4368,14 +4363,11 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
     display: block
 }
-
-.open>a {}
 
 .dropdown-menu-right {
     right: 0;
@@ -4520,9 +4512,6 @@ tbody.collapse.in {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0
 }
-
-.btn-group .dropdown-toggle:active,
-.btn-group.open .dropdown-toggle {}
 
 .btn-group>.btn+.dropdown-toggle {
     padding-right: 8px;
@@ -5115,7 +5104,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -5213,8 +5202,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     border: 1px solid transparent;
     border-radius: 4px
 }
-
-.navbar-toggle:focus {}
 
 .navbar-toggle .icon-bar {
     display: block;
@@ -7587,7 +7574,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
     background-repeat: repeat-x
 }
 
@@ -7598,7 +7584,6 @@ button.close {
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
     background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
     background-repeat: repeat-x
 }
 
