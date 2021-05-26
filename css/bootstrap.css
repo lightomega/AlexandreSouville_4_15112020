@@ -1403,7 +1403,7 @@ textarea {
 }
 
 a {
-    color: #F7F7F7;
+    color: #F7F7F7!important;
     text-decoration: none
 }
 
