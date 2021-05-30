@@ -2013,8 +2013,11 @@ pre code {
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-right: -15px;
-    margin-left: -15px
 }
 
 .col-lg-1,
