@@ -2013,11 +2013,14 @@ pre code {
 }
 
 .row {
+    margin-right: -15px;
+}
+
+.links-footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-right: -15px;
 }
 
 .col-lg-1,
